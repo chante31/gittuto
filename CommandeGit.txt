@@ -14,6 +14,8 @@ git branch -M main, ma branche s'appelera desormais main)
 
 ----git rebase -i HEAD~3 Pour faire un rebase interactif exemple ici je veux faire un rebase interactif du commit3
 
+---------------------------Supprimer une Branche----------------------------
+
 Supprimer une branche dans git:
 
 ---- git branch nom de la branche
@@ -28,3 +30,6 @@ Pour vérifier la suppression:
 ---- git push origin --delete nom de la branche 
 Pour vérifier la suppression: 
 --- git branch -a
+
+---------------------commande rapide pour commiter les fichier sans faire git add------------
+git commit -a -m "commentaires"
