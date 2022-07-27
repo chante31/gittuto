@@ -1,0 +1,30 @@
+Git commande pour pusher de son dépôt local vers depot distant :
+Git commande pour pusher de son dépôt local vers depot distant :
+clic droit pour ouvrir git bash dans le depot lical , dans la console:
+
+Initinier d'abord un git 
+---- git init
+---- git add .   --------------------------(pour rajouter tous les fichiers)
+-----git commit -m" les commentaire"
+---- git push     ---------------------------(pour pusher sur la branche)                                            
+-----git checkout nom de la branche ----------(Elle permet de switcher d'une branche à une autre depuis la version 2.4 de git on peut utiliser ---git switch nom de la branche souhaité)
+
+-----------git branch -M master(cette commande permet de changer le nom de la branche master si j'ecris 
+git branch -M main, ma branche s'appelera desormais main)
+
+----git rebase -i HEAD~3 Pour faire un rebase interactif exemple ici je veux faire un rebase interactif du commit3
+
+Supprimer une branche dans git:
+
+---- git branch nom de la branche
+Pour supprimer une branche git en local:
+
+retourner à la branche master 
+--- git branch -d nom de la branche
+Pour vérifier la suppression: 
+--- git branch
+
+ pour supprimer une branche à distance:
+---- git push origin --delete nom de la branche 
+Pour vérifier la suppression: 
+--- git branch -a

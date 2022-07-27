@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=E0xhJLJxgaY
+
+https://www.youtube.com/watch?v=pXB5L2i3EGI
+
+
+https://www.youtube.com/watch?v=ZY5A7kUR0S4&list=PLjwdMgw5TTLXuY5i7RW0QqGdW0NZntqiP&index=6
+
+
+Supprimer une branche dans git:
+
+---- git branch nom de la branche
+Pour supprimer une branche git en local:
+
+retourner à la branche master 
+--- git branch -d nom de la branche
+Pour vérifier la suppression: 
+--- git branch
+
+ pour supprimer une branche à distance:
+---- git push origin --delete nom de la branche 
+Pour vérifier la suppression: 
+--- git branch -a
