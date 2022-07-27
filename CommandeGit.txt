@@ -4,7 +4,7 @@ clic droit pour ouvrir git bash dans le depot lical , dans la console:
 
 Initinier d'abord un git 
 ---- git init
----- git add .   --------------------------(pour rajouter tous les fichiers)
+---- git add .   --------------------------(pour rajouter tous les fichiers ça met les fichiers dena un environnement de staging)
 -----git commit -m" les commentaire"
 ---- git push     ---------------------------(pour pusher sur la branche)                                            
 -----git checkout nom de la branche ----------(Elle permet de switcher d'une branche à une autre depuis la version 2.4 de git on peut utiliser ---git switch nom de la branche souhaité)
@@ -17,9 +17,9 @@ git branch -M main, ma branche s'appelera desormais main)
 ---------------------------Supprimer une Branche----------------------------
 
 Supprimer une branche dans git:
-Pour supprimer une branche git en local:
----- git branch nom de la branche
 
+---- git branch nom de la branche
+Pour supprimer une branche git en local:
 
 retourner à la branche master 
 --- git branch -d nom de la branche
@@ -33,3 +33,17 @@ Pour vérifier la suppression:
 
 ---------------------commande rapide pour commiter les fichier sans faire git add------------
 git commit -a -m "commentaires"
+git commit -a (signifie, j'ai des fichiers qui ne sont pas stagé mais qui sont suivi,je veux que tu les commit à la volée) ,
+il remplace git add video qui explique  à la 9:43 https://www.youtube.com/watch?v=chhVBZfRFgI&list=PLjwdMgw5TTLXuY5i7RW0QqGdW0NZntqiP&index=5 )
+
+------------------------lister tous les commits en une ligne et avoir toutes les historiques------------------------------------------
+
+---- git log --oneline
+---- git log  -n 2 (nombre des deux derniers commits)
+----- git log -p nom du fichier (pour avoir tout les commit de ce fichier en particulier
+---- git log  -n 2 -p nom du fichier(nombre des deux derniers commits)
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------Voir la difference entre deux fichiers----------------------------------------------------
+git diff 
