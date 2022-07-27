@@ -17,9 +17,9 @@ git branch -M main, ma branche s'appelera desormais main)
 ---------------------------Supprimer une Branche----------------------------
 
 Supprimer une branche dans git:
-
----- git branch nom de la branche
 Pour supprimer une branche git en local:
+---- git branch nom de la branche
+
 
 retourner à la branche master 
 --- git branch -d nom de la branche
